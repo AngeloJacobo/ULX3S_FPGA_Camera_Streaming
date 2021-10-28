@@ -37,4 +37,14 @@ Two ways to run this design to your ULX3S FPGA Board:
 5. Add the directories of `toolchain-ecp5\bin` and `toolchain-fujprog\bin` to PATH.
 6. Check if you can now call `yosys` , `nextpnr-ecp5` , and `fujprog` on bash.
 
+# About:
+This project is ported from my previous design [FPGA_OV7670_Camera_Interface](https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface) that uses Spartan 6 FPGA Board. The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.
 
+# Donate   
+Support these open-source projects by donating  
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=GBJQGJNCJZVRU)
+
+
+# Inquiries  
+Connect with me at my linkedin: https://www.linkedin.com/in/angelo-jacobo/
