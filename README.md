@@ -34,7 +34,7 @@ Two ways to run this design to your ULX3S FPGA Board:
 2. Open any example design then run `verify`
 3. Open `View>Command Output`, take note of the directory at `(DEBUG) Home_dir: ________`
 4. Open this directory and go inside the packages folder
-5. Add the directories of `toolchain-ecp5\bin` and `toolchain-fujprog\bin` to PATH.
+5. Add the directories of `toolchain-ecp5\bin` , `toolchain-fujprog\bin` , and `toolchain-yosys\bin` to PATH.
 6. Check if you can now call `yosys` , `nextpnr-ecp5` , and `fujprog` on bash.
 
 # About:
