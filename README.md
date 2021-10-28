@@ -1,5 +1,7 @@
 Created by: Angelo Jacobo  
-Date: October 28,2021  
+Date: October 28,2021   
+
+[![image](https://user-images.githubusercontent.com/87559347/139249098-37ed0eeb-aa39-4df4-9bfe-3db256315c8d.png)](https://youtu.be/KtaKkZEPJIA)
 
 
 # Materials:  
