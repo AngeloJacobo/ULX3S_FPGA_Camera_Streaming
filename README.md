@@ -36,7 +36,11 @@ Two ways to run this design to your ULX3S FPGA Board:
 3. Check if you can now call `yosys` , `nextpnr-ecp5` , and `fujprog` on bash. If `command not found`, just add the directories of the `oss-cad-suite/bin` , `oss-cad-suite/lib` , and `oss-cad-suite/py3bin` to PATH. 
 
 # About:
-This project is ported from my previous design [FPGA_OV7670_Camera_Interface](https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface) that uses Spartan 6 FPGA Board. This design uses an HDMI interface instead of VGA. The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.
+This project is ported from my previous design [FPGA_OV7670_Camera_Interface](https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface) that uses Spartan 6 FPGA Board. This design uses an HDMI interface instead of VGA. The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.  
+* `btn3` - increase brightness
+* `btn4` - decrease brightness
+* `btn6` - increase contrast
+* `btn5` - decrease contrast
 
 # Donate   
 Support these open-source projects by donating  
