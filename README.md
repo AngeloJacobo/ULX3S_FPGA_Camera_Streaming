@@ -12,7 +12,7 @@ Date: October 28,2021
 
 ![OV7670_ULX3S](https://user-images.githubusercontent.com/87559347/139229796-e3072ac5-d99b-4360-b7b1-47e7d0e19e40.jpg)
 
-Two ways to run this design to your ULX3S FPGA Board:   
+Two ways to run this design on your ULX3S FPGA Board:   
 * Using Icestudio GUI  
 * Using the FPGA Opensource Toolchain (Yosys+Nexpnr+Fujprog)  
 
