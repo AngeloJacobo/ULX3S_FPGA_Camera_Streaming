@@ -30,14 +30,10 @@ Two ways to run this design to your ULX3S FPGA Board:
  `git clone https://github.com/AngeloJacobo/ULX3S_FPGA_Camera_Streaming.git`
 2. Run `make sram` (or `make flash` if you want to download it directly to flash)
 3. Done!
-
-### If you do not yet have the opensource tools installed(for Windows Only):
-1. Install [Icestudio](https://icestudio.io/)
-2. Open any example design then run `verify`
-3. Open `View>Command Output`, take note of the directory at `(DEBUG) Home_dir: ________`
-4. Open this directory and go inside the packages folder
-5. Add the directories of `toolchain-ecp5\bin` , `toolchain-fujprog\bin` , and `toolchain-yosys\bin` to PATH.
-6. Check if you can now call `yosys` , `nextpnr-ecp5` , and `fujprog` on bash.
+### If you do not yet have the FPGA opensource tools installed:
+1. Download the latest release of [`oss-cad-suite`](https://github.com/YosysHQ/oss-cad-suite-build) that matches your OS
+2. Follow the installation guide.
+3. Check if you can now call `yosys` , `nextpnr-ecp5` , and `fujprog` on bash. If `command not found`, just add the directories of the `oss-cad-suite/bin` , `oss-cad-suite/lib` , and `oss-cad-suite/py3bin` to PATH. 
 
 # About:
 This project is ported from my previous design [FPGA_OV7670_Camera_Interface](https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface) that uses Spartan 6 FPGA Board. This design uses an HDMI interface instead of VGA. The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.
