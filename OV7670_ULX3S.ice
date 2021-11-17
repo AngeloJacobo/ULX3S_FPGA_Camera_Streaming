@@ -818,6 +818,38 @@
             "width": 96,
             "height": 128
           }
+        },
+        {
+          "id": "cc560125-68e0-43e2-9b88-ae3dce7c3c8b",
+          "type": "basic.info",
+          "data": {
+            "info": "![OV7670_ULX3S](https://user-images.githubusercontent.com/87559347/139229796-e3072ac5-d99b-4360-b7b1-47e7d0e19e40.jpg)   \n\n\n\n\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 1288,
+            "y": 608
+          },
+          "size": {
+            "width": 1024,
+            "height": 512
+          }
+        },
+        {
+          "id": "b17e21e1-ddab-49e4-bd84-668133db05e5",
+          "type": "basic.info",
+          "data": {
+            "info": "## Created by: Angelo C. Jacobo (https://www.linkedin.com/in/angelo-jacobo/)  \n\n### The OV7670 camera is a 0.3 Megapixel camera(640x480 @ 30fps). Data pixels are stored to SDRAM and retrieved by the HDMI which will then be displayed on the monitor.  \n### * `btn3` - increase brightness\n### * `btn4` - decrease brightness\n### * `btn6` - increase contrast\n### * `btn5` - decrease contrast",
+            "readonly": true
+          },
+          "position": {
+            "x": 1248,
+            "y": 256
+          },
+          "size": {
+            "width": 1240,
+            "height": 312
+          }
         }
       ],
       "wires": [
